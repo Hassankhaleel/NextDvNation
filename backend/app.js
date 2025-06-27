@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 dotenv.config();
 
-import connectDB from './utils/db.js';
+import connectDB from './config/db.js';
 
 connectDB();
 
