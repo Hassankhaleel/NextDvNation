@@ -1,0 +1,14 @@
+.hero_text {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.Txt_shadow {
+    text-shadow: 5px -1px 0px rgba(0, 195, 225, 0.753);
+}
+
+.bnt_Txt_shadow {
+    box-shadow: 4px 4px 0px rgba(0, 225, 75, 0.753);
+}
