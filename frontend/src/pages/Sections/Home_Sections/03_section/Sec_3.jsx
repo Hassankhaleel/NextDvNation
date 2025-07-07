@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from './image.png'
-import color_codes from '../../../color_codes'
+import color_codes from '../../../../../utils/color_codes'
 function Sec_3() {
     return (
         <>

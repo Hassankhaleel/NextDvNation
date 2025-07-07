@@ -8,6 +8,7 @@ import SignIn from './pages/auth/SignIn.jsx'
 import SignUp from './pages/auth/SignUp.jsx'
 import UserProfile from './pages/UserProfile.jsx'
 import store from './redux/slices/resourceSlice.js'
+import Dashboard from './pages/dashboard/Dashboard.jsx'
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: 'user/profile',
     element: <UserProfile />
+  },
+  {
+    path: 'user/dashboard',
+    element: <Dashboard />
   }
 ])
 
