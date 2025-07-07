@@ -1,5 +1,5 @@
 import React from 'react'
-import color from '../../../color_codes'
+import color from '../../../../../utils/color_codes'
 import illus from './Illustration (1).png'
 import illus2 from './Illustration (2).png'
 import illus3 from './Illustration (3).png'
