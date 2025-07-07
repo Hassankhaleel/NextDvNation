@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../utils/axios'; // axios instance
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const UserProfile = () => {
   const [user, setUser] = useState(null);
@@ -27,7 +27,7 @@ const UserProfile = () => {
       console.log(res.data)
   }
 
-  if (!user) return <p className="text-center mt-10">Loading profile...</p>;
+  if (!user) return <p className="text-center mt-10"> <Link to='/auth/sign-in'>Sign in</Link> </p>;
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 border rounded shadow bg-white">
